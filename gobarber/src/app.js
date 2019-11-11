@@ -1,6 +1,8 @@
 import express from 'express';
 import routes from './routes';
 
+import './database';
+
 class App {
   constructor() {
     this.server = express(); // same as the app var from previous app. Receive expres.

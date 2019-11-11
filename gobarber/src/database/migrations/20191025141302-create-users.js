@@ -24,7 +24,7 @@ module.exports = {
       // armazena os clientes e prestadores de servico
       provider: {
         type: Sequelize.BOOLEAN,
-        defaultValeu: false,
+        defaultValue: false,
         allowNull: false,
       },
       // armazena data de criacao e edicao de cada registro
